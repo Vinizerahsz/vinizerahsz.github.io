@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: "Poppins", sans-serif;;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#cabecalho {
+    width: 100vw;
+    height: 6vh;
+    background-color: #b31111;
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#abaixo-cabecalho {
+    display: flex;
+    width: 100vw;
+    height: 14vh;
+    background-color: black;
+
+}
+
+#faixa-logo {
+    display: flex;
+    width: 100vw;
+    height: 9vh;
+    background-color: #171717;
+    align-items: center;
+    justify-content: center;
+}
+
+#input-logo {
+    padding-left: 18px;
+    padding-right: 18px;
+    width: 600px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.texto-categoria {
+
+    font-weight: 600;
+    position: absolute;
+    margin-bottom: 9%;
+}
+
+#categorias {
+    display: flex;
+    font-size: 28px;
+    justify-content:center;
+    flex-direction: row;
+    align-items:center;
+    width: 100vw;
+    height: 18vh;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    gap: 30px;
+    
+    
+    
+
+}
+
+.categorias-imagens {
+    
+    margin-top: 2%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    
+    background-color: white;
+}
+
+#conteudo {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0e0e0e;
+}
